@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#canvas {
+    margin: 0 auto;
+    display: block;
+    background-color: aquamarine;
+    border: 1px solid black
+}
+#container {
+    width: 90%;
+    height: 90%;
+    background-color: beige;
+    padding: 25px;
+}
+#controls {
+    padding: 10px;
+    width: 20%;
+}
+#startButton {
+    padding: 10px;
+}
+#scoreBox {
+    padding: 10px;
+}
+#form {
+    padding: 10px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>
+        Ball Breaker
+    </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container">
+        <div id="controls">
+        <button id="startButton" type="button" >Start Game</button>
+        <span id="scoreBox">Score: 0</span>
+        <form id="form">
+            <fieldset>
+                <legend>Select Game Mode:</legend>
+                <div> 
+                <input type="radio" id="1P" value="1P" name="mode" checked/>
+                <label for="1P">1P</label>
+                <input type="radio" id="2P" value="2P" name="mode"/>
+                <label for="2P">2P</label>
+                <input type="radio" id="block-breaker" value="Block Breaker" name="mode"/>
+                <label for="block-breaker">Block Breaker</label>
+                </div>
+            </fieldset>
+        </form>
+        </div>
+        <canvas id="canvas" width="800px" height="500px">
+        </canvas>
+    </div>
+    <script src="index.js">
+    </script>
+</body>
